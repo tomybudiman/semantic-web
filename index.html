@@ -8,15 +8,13 @@
 </head>
 <body>
   <section id="topbar">
+    <div class="background"></div>
     <ul class="navbar">
       <li>
-        <a href="#home">Home</a>
+        <a href="#home" targetDiv="home" class="scroll-to">Home</a>
       </li>
       <li>
-        <a href="about-me">About</a>
-      </li>
-      <li>
-        <a href="#skills">Skills</a>
+        <a href="#about-me" targetDiv="about" class="scroll-to">About</a>
       </li>
     </ul>
   </section>
@@ -26,7 +24,19 @@
       <span class="about">Frontend Developer</span>
     </div>
   </section>
-  <section id="footer"></section>
+  <section id="about">
+    <div class="section left">
+      <span>
+        Hai! Nama saya Tomy Djaya Budiman biasa dipanggil Tomy. Usia saya 20 tahun dan saat ini saya belajar di Hacktiv8 untuk menjadi seorang fullstack Javascript professional. Kemampuan yang sudah saya miliki yaitu HTML, PHP, JS (NodeJS), CSS (Ruby SASS).
+      </span>
+    </div>
+    <div class="section right">
+      <img src="./assets/media/about-me.png" alt="Profile Picture">
+    </div>
+  </section>
+  <section id="footer">
+    <span>Copyright &copy; 2017 Tomy Djaya Budiman</span>
+  </section>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./assets/js/index.js" type="text/javascript"></script>
