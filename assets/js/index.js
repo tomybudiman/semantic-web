@@ -14,7 +14,7 @@ $(document).ready(function(){
 
   // Scroll to div function
   $(this).on("click",".scroll-to",function(event){
-    var targetDiv=$("#"+event.target.attributes[1].nodeValue).offset().top;
+    var targetDiv=$("#"+event.target.innerHTML.toLowerCase()).offset().top;
     $("html,body").animate({scrollTop:targetDiv+"px"},750);
   });
 });
